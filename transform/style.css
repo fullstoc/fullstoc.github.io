@@ -1,0 +1,461 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(18, 18, 68, 0.952);
+   width: 1400px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    color: rgb(238, 238, 241);
+    text-transform: uppercase;
+    background: blueviolet;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+    perspective-origin: 10px, 5px;
+    perspective: 600px;
+    transition: 2s ease;
+}
+
+.box:hover {
+    transform: rotateX(-37deg);
+    transform-style: preserve-3d;
+}
+
+.viva {
+    background: #ffffff;
+    width: 200px;
+
+}
+
+.slideshow {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    box-shadow: 2px 2px 10px #fff;
+
+}
+
+.midlle {
+    top: 50%;
+    left: 50% !important;
+    margin: auto !important;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s ease;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    transition: 3s ease;
+    transition-duration: 5s;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.slide img:hover {
+    transform: scale(2);
+    transition: 1.6s;
+
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    margin: auto;
+    margin-left: 25%;
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 10px;
+    border: 2px solid #ffffff;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.bar:hover {
+    background: #ffffff;
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+#r1:checked~.s1 {
+    margin-left: 0;
+}
+
+#r2:checked~.s1 {
+    margin-left: -20%;
+}
+
+#r3:checked~.s1 {
+    margin-left: -40%;
+}
+
+#r4:checked~.s1 {
+    margin-left: -60%;
+}
+
+#r5:checked~.s1 {
+    margin-left: -80%;
+}
+
+/*----------------------------SLIDESHOW END-----------------------------*/
+
+.animation {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 30px;
+
+}
+
+.animation:hover .b {
+    opacity: 1;
+    transform: translateY(0);
+    color: rgb(10, 10, 27);
+}
+
+.animation:hover .o {
+    opacity: 1;
+    transform: translateY(0);
+    color:  rgb(10, 10, 27);
+}
+
+.animation:hover .y {
+    opacity: 1;
+    transform: translateY(0);
+    color:  rgb(10, 10, 27);
+
+}
+
+.animation:hover .bb {
+    opacity: 1;
+    transform: translateY(0);
+    color:  rgb(10, 10, 27);
+
+}
+
+.animation:hover .e {
+    opacity: 1;
+    transform: translateY(0);
+    color: rgb(21, 21, 22);
+
+}
+
+.animation:hover .k {
+    opacity: 1;
+    transform: translateY(0);
+    color:  rgb(10, 10, 27);
+
+}
+
+.animation:hover .oo {
+    opacity: 1;
+    transform: translateY(0);
+    color: rgb(10, 10, 27);
+
+}
+
+.animation:hover .v {
+    opacity: 1;
+    transform: translateY(0);
+    color:  rgb(10, 10, 27);
+
+}
+
+.card {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+    background: url(./SelfieCity_20210115165743_org.jpg) center center;
+    background-size: cover;
+}
+
+
+
+.text {
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightblue;
+    margin: 0;
+    
+
+
+}
+
+.text h2 .b {
+    opacity: 0;
+    transform: translateY(-90px);
+    transition: 2s ease;
+}
+
+.text h2 .o {
+    opacity: 0;
+    transform: translateY(90px) !important;
+    transition: 4s;
+}
+
+.text h2 .y {
+    opacity: 0;
+    transform: translateY(90px) !important;
+    transition: 6s;
+}
+
+.text h2 .bb {
+    opacity: 0;
+    transform: translateY(90px) !important;
+    transition: 8s;
+}
+
+.text h2 .e {
+    opacity: 0;
+    transform: translateY(90px) !important;
+    transition: 10s;
+}
+
+.text h2 .k {
+    opacity: 0;
+    transform: translateY(90px) !important;
+    transition: 12s;
+}
+
+.text h2 .oo {
+    opacity: 0;
+    transform: translateY(90px) !important;
+    transition: 14s;
+}
+
+.text h2 .v {
+    opacity: 0;
+    transform: translateY(90px) !important;
+    transition: 15s;
+}
+
+/*---------ism start----------*/
+.ism {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.text {
+    margin: 0;
+}
+
+.ism .j {
+    font-size: 90px;
+    transform: translateY(-100px);
+    transition: 3s;
+    opacity: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ism .a {
+    font-size: 90px;
+    transform: translateY(-100px);
+    transition: 5s;
+    opacity: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ism .v2 {
+    font-size: 90px;
+    transform: translateY(-100px);
+    transition: 7s;
+    opacity: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ism .o2 {
+    font-size: 90px;
+    transform: translateY(-100px);
+    transition: 9s;
+    opacity: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ism .h {
+    font-size: 90px;
+    transform: translateY(-100px);
+    transition: 11s;
+    opacity: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ism .i {
+    font-size: 90px;
+    transform: translateY(-100px);
+    transition: 13s;
+    opacity: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ism .r {
+    font-size: 90px;
+    transform: translateY(-100px);
+    transition: 14s;
+    opacity: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.animation:hover .ism .j {
+    transform: translateY(0);
+    opacity: 1;
+    color: yellow;
+    transform: scale(1.3);
+    text-shadow: 1px 1px 10px grey;
+}
+
+.animation:hover .ism .a {
+    transform: translateY(0);
+    opacity: 1;
+    color: yellow;
+    text-shadow: 1px 1px 10px grey;
+}
+
+.animation:hover .ism .v2 {
+    transform: translateY(0);
+    opacity: 1;
+    color: yellow;
+    text-shadow: 1px 1px 10px grey;
+}
+
+.animation:hover .ism .o2 {
+    transform: translateY(0);
+    opacity: 1;
+    color: yellow;
+    text-shadow: 1px 1px 10px grey;
+}
+
+.animation:hover .ism .h {
+    transform: translateY(0);
+    opacity: 1;
+    color: yellow;
+}
+
+.animation:hover .ism .i {
+    transform: translateY(0);
+    opacity: 1;
+    color: yellow;
+    text-shadow: 1px 1px 10px grey;
+}
+
+.animation:hover .ism .r {
+    transform: translateY(0);
+    opacity: 1;
+    color: yellow;
+    text-shadow: 1px 1px 10px grey;
+}
+
+/*----------------------iconca start----------------------*/
+
+.iconca{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 300px;
+}
+.icon{
+    margin: auto;
+  
+    margin-top: 10%;
+    position: absolute;
+    width: 50%;
+    height: 300px;
+   margin-left: 30%;
+   position: relative;
+  
+}
+.icon h1{
+    font-size: 140px;
+    color: #ffffff;
+   opacity: 0;
+   transform: translateY(-100px) scale(0);
+   transition: 4s;
+}
+.icon .fa{
+    font-size: 250px;
+    color: red;
+    position: absolute;
+ transform: translateY(-400px) translateX(150px) scale(0);
+ transition: all 3s ease 0.9s;
+}
+.iconca:hover .icon h1{
+    opacity: 1;
+    transform: translate(0) scale(1);
+    transition: ease 2s;
+    text-shadow: 1px 1px 10px rgb(97, 16, 16);
+}
+.iconca:hover .icon .fa{
+    
+    transform: translateY(-320px) translateX(-220px);
+    animation: ani 2s infinite ease;
+    text-shadow: 2px 2px 10px rgb(94, 9, 9);
+}
+.iconca:hover .icon h1 span{
+    color: yellow;
+}
+.iconca:hover .icon .ii{
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 300px;
+    transition: 3s ease;
+}
+@keyframes ani{
+    0%{
+        font-size: 250px;
+      color: red;
+    }
+    30%{
+        font-size: 220px;
+        color: rgb(110, 7, 7);
+    }
+    50%{
+       transform: scale3d(30px, 30px, 40px);
+        
+    }
+    70%{
+       
+        transform: rotate(30px, 40px);
+    }
+    100%{
+        font-size: 250px;
+        
+    }
+}
