@@ -42,7 +42,7 @@ header .header_nav {
 }
 
 header .header_nav .navbar .navbar-brand {
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 500;
     color: #fff;
 
@@ -53,7 +53,7 @@ header .header_nav .navbar .navbar-brand span {
 }
 
 header .header_nav .navbar .collapse {
-    margin-left: 33%;
+    margin-left: 30%;
     padding: 0;
 }
 
@@ -199,6 +199,7 @@ header .header_text .banner-text p:hover .adver {
         color: #fff !important;
         font-size: 20px !important;
         font-weight: bold;
+        line-height:7px;
     }
 
     header .header_text .md-none {
@@ -212,8 +213,17 @@ header .header_text .banner-text p:hover .adver {
 /* exSM 0-567*/
 @media (max-width:576px) {
     header .header_nav {
-
         width: 100%;
+    }
+    header .navbar .collapse{
+        margin-left:0;
+    }
+     header .navbar .collapse ul li a {
+        color: #fff !important;
+        font-size: 16px !important;
+        font-weight: bold;
+        line-height:7px;
+         font-size:10px;
     }
 
     header .header_nav .navbar .navbar-brand {
