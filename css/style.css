@@ -197,9 +197,10 @@ header .header_text .banner-text p:hover .adver {
 
     header .navbar .collapse ul li a {
         color: #fff !important;
-        font-size: 20px !important;
+        font-size: 15px !important;
         font-weight: bold;
         line-height:7px;
+        margin:0;
     }
 
     header .header_text .md-none {
@@ -223,7 +224,9 @@ header .header_text .banner-text p:hover .adver {
         font-size: 16px !important;
         font-weight: bold;
         line-height:7px;
-         font-size:10px;
+         font-size:13px;
+         margin:0;
+         padding:0;
     }
 
     header .header_nav .navbar .navbar-brand {
