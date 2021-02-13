@@ -1,0 +1,1691 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body {
+   padding: 0;
+    /* background: linear-gradient(to right bottom, #6679e9, transparent, #030303, transparent ); */
+    background: #fff;
+    transition: 0.8s ease;
+  
+}
+
+.arrow-down{
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    border: none;
+    background: none;
+    transition: all 0.7s ;
+    z-index: 100;
+}
+.arrow-down a .fa{
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 10px ;
+    background-color: #3b51d1b9;
+    border-radius: 50%;
+    transition: scroll 4s ease-in;
+}
+/* webkits ckroll */
+::-webkit-scrollbar{
+    width: 15px;
+    border-radius: 50% !important;
+    transition: 2S ease;
+    animation: scroll 2s infinite ease;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient( transparent, #5166d8);
+    border-radius: 25px !important;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient( transparent, #3b51d1);
+}
+/* --------------HEADER START------------ */
+
+.burchak{
+    width: 35px;
+    height: 35px;
+    background:linear-gradient(to right bottom, #5166d8, #f8f7f7, transparent);
+    transform: rotate(45deg) translateY(60px) translateX(20px);
+    justify-content: center;
+    margin: auto;
+    
+    
+}
+@keyframes ayla {
+    to{
+    transform: rotate(360deg) scale(1);
+    
+    }
+    from{
+        transform: rotate(0) scale(0) translateY(-500px) ;
+         
+    }
+}
+.alyan{
+    width: 100px;
+    height: 100px;
+  
+   
+    margin: 0;
+    animation: ayla 6s infinite ease;
+    animation-iteration-count: 1;
+    text-align: center;
+
+}
+.alyan .fa{
+    font-size: 130px;
+    color: #f9f9f9a8;
+    transform: translateX(390px) translateY(-190px) rotate(-26deg);
+    
+}
+
+
+
+/* ---------------------HEADER_TOP--------------------- */
+header{
+    width: 100%;
+}
+.header-box .header_top {
+    box-shadow: 1px 1px 5px gray;
+    margin-bottom: 7px;
+    transition: 0.8s ease;
+    position: fixed;
+    z-index: 200;
+    top: 5px;
+    width: 100%;
+    background:#5169f1b6;
+    
+    width: 100%;
+   
+}
+
+.header-box .header_top .navbar {
+    width: 100%;
+}
+.header-box .header_top .navbar .navbar-brand span{
+    color: #0c18c0;
+    font-weight: 900;
+}
+.header-box .header_top .navbar .navbar-brand {
+    font-size:25px;
+
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-weight:600;
+    margin: 0;
+    padding: 0;
+    margin-right: 9%;
+    
+}
+
+.mani-webim{
+    display: none;
+}
+
+.header-box .header_top .navbar .collapse .nav-item {
+    margin: 0 8px;
+    font-family: 'Martel', serif;
+}
+
+.header-box .header_top .navbar .collapse .nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.8s ease-in;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    transition:all 0.8s ease !important;
+    -webkit-transition: 2s ease-in;
+}
+
+.header-box .header_top .navbar .collapse .nav-item .nav-link:hover {
+    color: black;
+}
+
+/* ------------------------HEADER TOP END------------------ */
+
+
+
+
+/* ------------------------HEADER CAROUSEL START------------------ */
+
+.header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item {
+    width: 100%;
+}
+.header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item img {
+    width: 100% !important;
+    height: 100vh;
+}
+.header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 180px;
+}
+.header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 70px;
+    font-weight: bold;
+    animation: animat 2s ease;
+    opacity: 0.8;
+    animation-iteration-count: 1;
+    
+    margin-bottom: 30px;
+}
+
+.header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 20px;
+    font-weight: 800;
+    opacity: 0.8;
+    animation: anima 2s ease;
+    animation-iteration-count: 1;
+}
+@keyframes animat {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+}
+@keyframes anima {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    from {
+        transform: translateY(50px);
+  opacity: 0;
+    }
+}
+
+
+/*------------- RESPONSIVE HEADERDER--------- */
+
+
+/* LG 992-1120 */
+
+@media (max-width:1200px) {
+    .header-box .header_top .navbar .navbar-brand {
+        font-size: 20px;
+        font-weight: 400;
+        margin-right: 10%;   
+    }
+    .alyan{
+        width: 70px;
+        height: 70px;
+        margin: 0;
+        animation: ayla 6s infinite ease;
+        animation-iteration-count: 1;
+        text-align: center;
+    
+    }
+    .alyan .fa{
+        font-size: 100px;
+        color: #f9f9f9a8;
+        transform: translateX(270px) translateY(-143px) rotate(-26deg);
+        
+    }
+}
+    /* ---
+
+    .header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item .carousel-caption {
+        margin-bottom: 120px;
+    }
+   
+    .header-box .header_top .navbar .collapse .nav-item .nav-link {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 48px;
+    }
+}
+
+
+/* SM 576-768PX */
+
+@media (max-width:768px) {
+    .alyan{
+        width: 60px;
+        height: 60px;
+      
+       
+        margin: 0;
+        animation: ayla 3s infinite ease;
+        animation-iteration-count: 1;
+        text-align: center;
+    
+    }
+    .alyan .fa{
+        font-size: 80px;
+        color: #f9f9f9a8;
+        transform: translateX(27px) translateY(-130px) rotate(-26deg);
+        
+    }
+}
+
+
+/* EX SM 0-576PX */
+
+@media (max-width:576px) {
+    .header-box .header_top .navbar .collapse .linkk {
+        margin-left: 0;
+    }
+    .mani-webim{
+        display: block;
+    }
+    .mutaxasis{
+        display: none;
+    }
+    .header-box .header_top .navbar .collapse .nav-item {
+        margin: 0 10px;
+        font-family: 'Martel', serif;
+    }
+    
+    .header-box .header_top .navbar .collapse .nav-item .nav-link {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .header-box .header_top .navbar .collapse .nav-item .nav-link .fa{
+        margin: 0;
+    }
+    .header-box .header_top .navbar .navbar-brand {
+        font-size: 20px;
+        font-weight: 400;
+        margin-right: 10%;
+    }
+    .header-box .header_top .navbar .navbar-toggler{
+        background-color: #2626d3de !important;
+        padding: 1px 5px;
+        color: #f9f9f9;
+    }
+    .header-box .header_top .navbar .navbar-toggler .navbar-toggler-icon {
+        font-size: 10px !important;
+        color: #f9f9f9 !important;
+    }
+    .header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item .carousel-caption {
+        transform: translateY(40px);
+    }
+    .header-box .header_top .navbar .collapse .nav-item .nav-link {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 10px;
+        animation: none;
+    }
+    .header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        animation: none;
+    }
+    .header-box .header_carousel .bd-example .carousel .carousel-inner .carousel-item img {
+        width: 100% !important;
+        height: 50vh;
+    }
+    
+   .alyan{
+    width: 20px;
+    height: 20px;
+   display: block;
+    margin: 0;
+    animation: ayla 3s infinite ease;
+    animation-iteration-count: 1;
+    text-align: center;
+   }
+   .alyan .fa{
+    font-size: 40px;
+    color: #f9f9f9a8;
+    transform: translateX(10px) translateY(-40px);
+    
+   }
+   .section_kurslarinfo{
+      margin: 0;
+      padding: 0;
+  }
+  .burchak{
+    width: 20px;
+    height: 20px;
+    background:linear-gradient(to right bottom, #5166d8, #f8f7f7, transparent);
+    transform: rotate(45deg) translateY(25px) translateX(34px);
+    justify-content: center;
+    margin: auto;
+    
+    
+}
+}
+/* ------------------------HEADER CAROUSEL END------------------ */
+
+
+
+
+/* --------------------SECTION STAR START---------------------- */
+section .section_star {
+    padding: 40px 0;
+
+}
+@keyframes upp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    from {
+        transform: translateY(50px);
+  opacity: 0;
+    }
+}
+section .section_star .icon-star .fa {
+    font-size: 70px;
+    color: #5166d8;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+    animation: upp 5s ease;
+}
+
+section .section_star .icon-star .fa:hover {
+    color: #fff;
+    font-size: 30px;
+    background: #5166d8;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+
+section .section_star .icon-star h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #5166d8;
+    margin: 10px 0;
+}
+
+section .section_star .icon-star p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3b3a3a;
+    animation: upp 10s ease;
+}
+/* --------------------SECTION STAR END---------------------- */
+
+
+
+
+
+/* --------------------SECTION ABOUT START----------------------- */
+
+.afisha {
+    font-size: 24px;
+    font-weight: 300;
+    color: #494747;
+    text-align: center;
+    margin: 20px 0 40px 0;
+    border-left: 5px solid #3b51d1;
+    border-bottom: 0.2px solid #3b51d167;
+    padding:0 15px 0 15px;
+    display: inline-block;
+    
+}
+
+section .section_about {
+    padding: 15px 0 30px 0;
+    background: #f9f9f9;
+    transition: 3s ease-in-out;
+}
+
+section .section_about .about-text h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #575757;
+    animation: upp 10s ease;
+
+}
+
+section .section_about .about-text p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #4b4949;
+    animation: upp 10s ease;
+}
+
+section .section_about .about-text a {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px 20px;
+    background: #5166d8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.6s ease;
+    animation: upp 10s ease;
+
+}
+
+section .section_about .about-text a:hover {
+    background: #ffff;
+    border: 1px solid #5166d8;
+    color: #5166d8;
+}
+
+section .section_about .about-img {
+    overflow: hidden;
+}
+
+section .section_about .about-img img {
+    width: 100%;
+    height: 300px;
+}
+
+section .section_about .about-img a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #5166d8;
+    color: #fff;
+}
+
+section .section_about .about-img:hover .lik {
+    transform: translateY(-80px);
+    opacity: 1;
+}
+
+section .section_about .about-img .lik {
+    margin-left: 35%;
+    opacity: 0;
+    transition: 0.7s ease;
+}
+
+section .section_about .about-img .lik .fa {
+    font-size: 30px;
+    color: #fff;
+    transition: 0.3s ease;
+    padding: 10px 10px 0 10px;
+    transition: 0.8s ease;
+}
+/* --------------------SECTION ABOUT END----------------------- */
+
+
+
+
+/* --------------------SECTION  KURS START----------------------- */
+section .section_kurs {
+    padding: 20px 0 30px 0 ;
+    transition: 0.8s ease;
+}
+
+section .section_kurs .kurs-img {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 5px;
+    animation: skale 10s ease;
+}
+@keyframes skale {
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+    from {
+        transform: scale(0);
+  opacity: 0;
+    }
+}
+
+section .section_kurs .kurs-img:hover .linkcha {
+    transform: translateY(-70px);
+}
+
+section .section_kurs .kurs-img .linkcha {
+    padding: 10px 20px;
+    background: #e2e1e1;
+    opacity: 0.8;
+    transition: 0.7s ease;
+}
+
+section .section_kurs .kurs-img .linkcha .fa:hover {
+    color: #5166d8;
+    background: #fff;
+}
+
+section .section_kurs .kurs-img .linkcha .fa {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 10px;
+    background: #5166d8;
+    border-radius: 50%;
+}
+
+section .section_kurs .kurs-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Responsive section */
+
+/* lg 768-992*/
+
+@media (max-width: 992px) {
+    section .section_about .about-text h3 {
+        font-size: 18px;
+    }
+    section .section_about .about-text p {
+        font-size: 13px;
+    }
+    section .section_about .about-text a {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    section .section_star {
+        padding: 30px 0;
+    }
+    section .section_star .icon-star .fa {
+        font-size: 50px !important;
+    }
+    section .section_star .icon-star .fa:hover {
+        color: #fff;
+        font-size: 30px;
+        background: #5166d8;
+        padding: 20px 20px;
+        border-radius: 50%;
+    }
+    section .section_star .icon-star h4 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #5166d8;
+        margin: 10px 0;
+    }
+    section .section_star .icon-star p {
+        font-size: 14px;
+        font-weight: 600;
+        color: #3b3a3a;
+    }
+}
+
+
+/* ex sm 0-576 */
+
+@media (max-width: 576px) {
+    section .section_about .about-text h3 {
+        font-size: 18px;
+    }
+    section .section_about {
+        padding: 10px 0;
+    }
+    section .section_about .about-text p {
+        font-size: 13px;
+    }
+    section .section_about .about-text {
+        padding: 0 0 20px 0;
+    }
+    section .section_about .about-text a {
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    section .section_star {
+        padding: 30px 0;
+    }
+    section .section_about .about-img img {
+        width: 100%;
+        height: 200px;
+    }
+    section .section_star .icon-star .fa {
+        font-size: 30px !important;
+    }
+    section .section_star .icon-star .fa:hover {
+        color: #fff;
+        font-size: 30px;
+        background: #5166d8;
+        padding: 10px 10px;
+        border-radius: 50%;
+    }
+    section .section_star .icon-star h4 {
+        font-size: 17px;
+        font-weight: 600;
+        color: #5166d8;
+        margin: 10px 0;
+    }
+    section .section_star .icon-star p {
+        font-size: 14px;
+        font-weight: 600;
+        color: #3b3a3a;
+        padding: 0 30px;
+    }
+}
+/* Responsive section */
+
+/* --------------SECTION KURS END------------ */
+
+
+
+
+
+/* --------------SECTION CAROUSEL START------------ */
+
+section .section_carousel {
+    padding: 30px 0;
+    transition: 0.8s ease;
+}
+
+section .section_carousel .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 80vh;
+}
+
+section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img {
+    width: 100%;
+    border-radius: 70px;
+    padding: 20px;
+    margin-top: 30px;
+}
+section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img:hover img {
+transform: scale(1.3);
+}
+
+
+section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #494747;
+    transition: 0.8s ease;
+}
+
+section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img ul li {
+    list-style: none;
+}
+
+section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #5166d8;
+}
+section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img p {
+    font-size: 14px;
+    
+    color: #6679e9;
+}
+
+section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img:hover ul li a .fa {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img ul li a .fa:hover {
+    transform: scale(1.3);
+}
+
+section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img ul li a .fa {
+    font-size: 20px;
+    color: #5166d8;
+    margin: 0 6px;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: 0.7s ease;
+}
+
+
+/* resposive sectio_carousel */
+
+@media (max-width: 992px) {
+    section .section_carousel {
+        padding: 30px 0;
+    }
+    section .section_carousel .carousel-inner .carousel-item img {
+        width: 100%;
+        height: 80vh;
+    }
+    section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img {
+        width: 100%;
+        border-radius: 70px;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+    }
+    section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img ul li {
+        list-style: none;
+    }
+    section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img h3 {
+        font-size: 15px;
+        margin-top: 16px;
+    }
+    section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img:hover ul li a .fa {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img ul li a .fa:hover {
+        transform: scale(1.3);
+    }
+    section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img ul li a .fa {
+        font-size: 20px;
+        color: #5166d8;
+        margin: 0 6px;
+        transform: translateY(-50px);
+        opacity: 0;
+        transition: 0.7s ease;
+    }
+    section .section_carousel .carousel-inner .carousel-item .carousel-caption .user-img p {
+        font-size: 10px;
+        margin: 0;
+        line-height: 15px;
+        display: none;
+    }
+
+    section .section_fon .gal-fon h2{
+        font-size: 60px !important;
+       
+     }
+     @keyframes txt {
+         to{
+         transform: translateX(0);
+         opacity: 1;
+        
+         }
+         from{
+             transform: translateX(900px);
+             opacity: 0;
+         }
+     }
+     
+     /* kelajak */
+     
+     section .section_fon .gal-fon .kelajak h3{
+         font-size: 43px;
+         font-weight: bold;
+         color: rgba(255, 255, 255, 0.466);
+         opacity: 0.8;
+         text-align: center;
+         margin-top: 50px;
+         animation: kelajak 5s ease;
+     }
+    
+}
+
+@media (max-width: 576px) {
+    .section_carousel {
+        display: none;
+    }
+    
+.afisha {
+    font-size: 16px;
+    font-weight:300;
+    color: #494747;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    border-bottom: 1px solid #3b51d1;
+    padding-bottom: 7px;
+    display: inline-block;
+    
+}
+}
+/* resposive sectio_carousel */
+
+/* --------------SECTION CAROUSEL END------------ */
+
+
+
+
+/* --------------SECTION AFOR START------------ */
+
+section .section_afor {
+    background: url(./img/QCTLje.jpg) center center no-repeat;
+    background-attachment: fixed;
+   filter: hue-rotate(90deg);
+    background-size: cover;
+    padding: 70px;
+    transition: 0.8s ease;
+
+}
+
+section .section_afor .aforizm p {
+    font-size: 50px;
+    color: #bbb8b8;
+    font-family: 'Courgette', cursive;
+
+    font-weight: 400;
+    
+}
+section .section_afor .aforizm{
+    animation: aniy 2s ease;
+    animation-iteration-count: 1;
+    transform: translateY(0px);
+}
+@keyframes aniy {
+    to{
+    transform: translateY(0);
+    animation-fill-mode: backwards;
+    opacity:0 ;
+    }
+    from{
+    transform: translateY(40px);
+    opacity: 1;
+    }
+}
+section .section_afor .aforizm p span {
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* responsivesectionmap andaforizm */
+@media (max-width:1200px){
+    
+section .section_afor {
+    background: url(./img/wp4854160.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+section .section_afor .aforizm p {
+    font-size: 40px;
+    color: #fff;
+}
+
+section .section_afor .aforizm p span {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+/* lg 768-992 */
+@media (max-width:992px){
+    
+    section .section_afor {
+        background: url(./img/wp4854160.jpg) center center no-repeat;
+        background-size: cover;
+        padding: 50px;
+    }
+    
+    section .section_afor .aforizm p {
+        font-size: 30px;
+        color: #fff;
+    }
+    
+    section .section_afor .aforizm p span {
+        font-size: 40px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    }
+
+    /* section map */
+    section .section_map .iframes{
+        height: 300px;
+    transition: 0.8s ease;
+
+    }
+}
+
+/* sm 576-768 */
+@media (max-width:768px){
+    
+    section .section_afor {
+        background: url(./img/wp4854160.jpg) center center no-repeat;
+        background-size: cover;
+        padding: 40px;
+    }
+    
+    section .section_afor .aforizm p {
+        font-size: 26px;
+        color: #fff;
+    }
+    section .section_fon .gal-fon .stoy{
+        display: none;
+        
+     }
+    section .section_afor .aforizm p span {
+        font-size: 26px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+section .section_fon .gal-fon h2{
+   font-size: 100px !important;
+   line-height: 100px !important;
+   margin-bottom: 0 !important;
+   text-align: center !important    ;
+   
+}
+section .section_fon .gal-fon h3{
+font-size: 30px !important;
+}
+
+    /* section map */
+    section .section_map .iframes{
+        height: 240px;
+    }
+
+}
+/* ex sm0-576 */
+@media (max-width:576px){
+    
+    section .section_afor {
+        background: url(./img/wp4854160.jpg) center center no-repeat;
+        background-size: cover;
+        padding: 30px;
+    }
+    
+    section .section_afor .aforizm p {
+        font-size: 18px;
+        color: #fff;
+    }
+  
+    section .section_afor .aforizm p span {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+  
+
+    /* section map */
+    section .section_map .iframes{
+        height: 200px;
+    }
+}
+/* --------------SECTION AFOR END------------ */
+
+
+
+
+
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+
+
+/*--------------- FOOTER START -------------------*/
+footer{
+    background: url(./img/mini-profile-bg-02.jpg);
+    background-size: 100% 600px;
+    
+}
+footer .footer_form{
+    background-color: rgb(37, 36, 36);
+    padding: 30px;
+    opacity: 0.8;
+}
+footer .footer_form h2{
+  margin: 0 0 20px 0;
+  color: #858280;
+}
+ footer .footer_form .contact h4{
+     font-size: 18px;
+     font-weight: 500;
+     color: #fff;
+     margin: 0;
+     padding: 0;
+ }
+ footer .footer_form .contact p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+     padding: 0;
+     line-height: 14px;
+}
+footer .footer_form .contact .manziltex{
+    padding-right:30%;
+}
+footer .footer_form .contact .fa{
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+footer .footer_form .form input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    margin: 10px 0;
+    width: 100%;
+}
+footer .footer_form .form .mass{
+    padding: 5px 0 30px 0;
+}
+footer .footer_form .form button{
+    padding:10px 20px;
+    border: none;
+    background-color: #5166d8;
+    color: #fff;
+    border-radius: 10px;
+}
+footer .copyprew {
+    padding: 10px 0 6px 0;
+    background-color: #181717;
+    text-align: center;
+    font-size: 16px;
+  color: #3b3a3a;
+}
+/* responsive footer */
+/* ex sm0-576px */
+@media (max-width:576px){
+    footer .footer_form{
+        background-color: black;
+        padding: 30px;
+    }
+    footer .footer_form h2{
+      margin: 0 0 30px 0;
+    }
+     footer .footer_form .contact h4{
+         font-size: 15px;
+     }
+     footer .footer_form .contact p{
+        font-size: 13px;
+        margin: 0;
+    }
+    footer .footer_form .contact .manziltex{
+        padding-right:0;
+    }
+    footer .footer_form .contact .fa{
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        margin: 0 20px 0 0;
+         padding: 0;
+    }
+    
+    footer .footer_form .form input{
+        margin: 6px 0;
+    }
+    footer .footer_form .form .mass{
+        padding: 5px 0 20px 0;
+    }
+    footer .footer_form .form button{
+        padding:5px 10px;
+        margin: 10px 0;
+    } 
+    footer .copyprew {
+        padding: 6px 0 0 0;
+        background-color: #181717;
+        text-align: center;
+        font-size: 10px;
+      color: #3b3a3a;
+    }
+}
+/* responsive footer */
+
+/*--------------- FOOTER END -------------------*/
+
+
+
+
+
+/*---------------SECTION Gallery-------------------*/
+
+section .section_fon{
+    width: 100%;
+    height: 100vh;
+    background: url(./img/images.jpg);
+    background-size: cover;
+   
+    overflow: hidden;
+}
+section .section_fon .gal-fon{
+    width: 100%;
+    height: 100%;
+    background: #0e0d0de7;
+    opacity: 0.8;
+    padding-top: 80px;
+
+   
+}
+section .section_fon .gal-fon .stoy{
+    width: 40px;
+    height: 300px;
+    background: rgba(214, 210, 210, 0.116);
+    margin-left: 25%;
+transition: 0.9s ease;
+box-shadow: 5px 2px 10px gray;
+animation: for 3s infinite ease;
+   
+}
+
+@keyframes for {
+    20%{
+       box-shadow:5px 5px 10px gray ; 
+    }
+    40%{
+        box-shadow:5px 5px 10px rgb(192, 188, 188) ; 
+
+    }
+    60%{
+        box-shadow:5px 5px 10px rgb(24, 24, 24) ; 
+
+    }
+}
+section .section_fon .gal-fon h2{
+   font-size: 170px;
+   font-weight: bold;
+   color:rgba(255, 255, 255, 0.192);
+   text-align: center;
+  text-shadow: 3px 3px 10px  gray;
+  transition: 0.9s ease;
+   margin: 0;
+   padding: 0;
+   animation: txt  4s infinite ease;
+   animation-iteration-count: 1;
+   
+}
+@keyframes txt {
+    to{
+    transform: translateX(0);
+    opacity: 1;
+   
+    }
+    from{
+        transform: translateX(900px);
+        opacity: 0;
+    }
+}
+
+/* kelajak */
+
+section .section_fon .gal-fon .kelajak h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.466);
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 50px;
+    animation: kelajak 5s ease;
+}
+@keyframes kelajak {
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    from{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+}
+/* kelajak */
+
+section .section_gallery a{
+    padding: 10px 20px ;
+    background-color:#3b51d1;
+    color: #fff;
+    border-radius: 20px;
+   font-size: 14px;
+   font-weight: 600;
+   transition: background 0.5s ease;
+   text-decoration: none;
+}
+section .section_gallery{
+    padding: 30px 0;
+}
+section .section_gallery a:hover{
+    
+    background-color:#fff;
+    color: #3b51d1;
+    border: 2px solid #3b51d1;
+    
+}
+section .section_gallery .galler{
+   margin-top: 50px;
+   height: 200px;
+}
+section .section_gallery .galler img{
+   width: 100%;
+   height: 100%;
+   
+   transition:  0.8s ease;
+   box-shadow: 1px 1px 3px gray;
+   border-radius: 3px;
+    z-index: 100;
+}
+section .section_gallery .galler img:hover{
+   transform: scale(2);
+    z-index: 1000;
+}
+section .section_gallery .galler img:hover .galler h3{
+   opacity: 1;
+     
+ }
+section .section_gallery .galler h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    transform: translateY(-30px);
+    opacity: 1;
+}
+
+ /* responsive gallery */
+
+ @media (max-width: 576px){
+    section .section_gallery .galler img:hover{
+        transform: scale(1.3);
+         margin: 0;
+     }
+     section .section_gallery .galler{
+         overflow:hidden ;
+     }
+}
+
+/* responsive section_gallery */
+/* ex lg 992-1200 */
+@media (max-width:1200px){
+    
+    section .section_fon{
+        width: 100%;
+        height: 90vh;
+        background: url(./img/images.jpg) center center no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    section .section_fon .gal-fon{
+        width: 100%;
+        height: 100%;
+        background: #0e0d0de7;
+        opacity: 0.8;
+        
+       
+    }
+    section .section_fon .gal-fon .stoy{
+        width: 40px;
+        height: 270px;
+        background: rgba(214, 210, 210, 0.116);
+        margin-left: 18%;
+    transition: 0.9s ease;
+    box-shadow: 5px 2px 10px gray;
+    animation: for 3s infinite ease;
+       
+    }
+    
+    @keyframes for {
+        20%{
+           box-shadow:5px 5px 10px gray ; 
+        }
+        40%{
+            box-shadow:5px 5px 10px rgb(192, 188, 188) ; 
+    
+        }
+        60%{
+            box-shadow:5px 5px 10px rgb(24, 24, 24) ; 
+    
+        }
+    }
+    section .section_fon .gal-fon h2{
+       font-size: 140px;
+       font-weight: bold;
+       color:rgba(255, 255, 255, 0.192);
+       text-align: center;
+      text-shadow: 3px 3px 10px  gray;
+      transition: 0.9s ease;
+       margin: 0;
+       padding: 0;
+       line-height: 130px;
+       animation: txt  4s infinite ease;
+       animation-iteration-count: 1;
+       
+    }
+    @keyframes txt {
+        to{
+        transform: translateX(0);
+        opacity: 1;
+       
+        }
+        from{
+            transform: translateX(900px);
+            opacity: 0;
+        }
+    }
+    
+    /* kelajak */
+    
+    section .section_fon .gal-fon .kelajak h3{
+        font-size: 43px;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.466);
+        opacity: 0.8;
+        text-align: center;
+        margin-top: 50px;
+        animation: kelajak 5s ease;
+    }
+}
+/* ex lg 768-992 */
+@media (max-width:992px){
+    
+section .section_fon{
+    width: 100%;
+    height: 75vh;
+    background: url(./img/images.jpg) center center no-repeat;
+
+  
+}
+
+section .section_fon .gal-fon .stoy{
+   display: none;
+   
+}
+
+
+section .section_fon .gal-fon h2{
+   font-size: 50px;
+   line-height: 100px;
+}
+
+
+/* kelajak */
+
+section .section_fon .gal-fon .kelajak h3{
+    font-size: 34px ;
+  
+}
+}
+
+@media (max-width:576px){
+    
+    section .section_fon{
+        width: 100%;
+        height: 40vh !important;
+        background: url(./img/images.jpg) center center no-repeat;
+    
+      
+    }
+    section .section_fon .gal-fon{
+        width: 100%;
+        height: 100%;
+        background: #0e0d0de7;
+        opacity: 0.8;
+        padding-top: 20px !important;
+    
+       
+    }
+    section .section_fon .gal-fon .stoy{
+       display: none;
+       
+    }
+    
+    section .section_fon .gal-fon h2{
+       font-size: 40px !important;
+       line-height: 40px !important;
+       text-align: center;
+       margin-bottom: 0 !important;
+  
+       
+    }
+
+    /* kelajak */
+    
+    section .section_fon .gal-fon .kelajak h3{
+        font-size: 20px !important;
+        margin-bottom: 100px !important;
+        margin-top: 20px !important;
+    }
+    section .section_kurslarinfo .href ul li{
+    margin: 10px 5px !important;
+    }
+    section .section_kurslarinfo .caraul{
+        padding: 0 30px;
+    }
+    section .section_kurslarinfo .href ul li a{
+        padding: 3px 6px ;
+        background-color: #3b51d1;
+        color: #fff;
+        border-radius: 20px;
+        transition: 0.7s ease;
+        border: 2px solid #3b51d1;
+        font-size: 10px !important;
+       
+      }
+}
+
+/*---------------SECTION Gallery-------------------*/
+
+
+
+/* --------------SECTION KURSLAR BO'LIMI START------------------- */
+
+.s-box{
+    top: 0;
+   left: 0;
+}
+.f-box{
+    height: 90vh;
+    overflow: scroll;
+    padding: 100px 30px;
+}
+section .section_kurslarinfo .href ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+section .section_kurslarinfo .href ul li a{
+  padding: 5px 10px ;
+  background-color: #3b51d1;
+  color: #fff;
+  border-radius: 20px;
+  transition: 0.7s ease;
+  border: 2px solid #3b51d1;
+}
+section .section_kurslarinfo .href ul li a:hover{
+   
+    background-color: #fff;
+    color: #3b51d1;
+    
+  }
+section .section_kurslarinfo .kurs-shadov{
+    border: 1px solid rgb(189, 188, 188);
+    box-shadow: 0.6px 1px 10px gray;
+    border-radius: 6px;
+    padding: 20px 0;
+}
+section .section_kurslarinfo{
+    padding: 30px 0;
+    background: #fff;
+}
+section .section_kurslarinfo  .shaxs .img-shaxs{
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px gray;
+    overflow: hidden;
+}
+section .section_kurslarinfo .shaxs .img-shaxs img{
+    width: 100%;
+    height: 100%;
+    transition: 0.7s ease;
+}
+section .section_kurslarinfo .shaxs .img-shaxs img:hover{
+    transform: scale(1.4);
+}
+section .section_kurslarinfo .bosh{
+    padding: 10px 20px ;
+    background-color:#3b51d1;
+    color: #fff;
+    border-radius: 20px;
+   font-size: 14px;
+   font-weight: 600;
+   transition: background 0.5s ease;
+   text-decoration: none;
+}
+section .section_kurslarinfo .bosh:hover{
+    background: none;
+    border: 2px solid #3b51d1;
+    color: #3b51d1;
+}
+
+section .section_kurslarinfo .kurs-shadov  h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #292827;
+    position: relative;
+    margin-bottom: 30px;
+}
+section .section_kurslarinfo  .kurs-shadov h2::after{
+    content: '';
+    width: 30%;
+    height: 4px;
+    background:linear-gradient( transparent, #3b51d1);
+    border-radius: 20px;
+    position: absolute;
+    transform: translateY(30px) translateX(-60px);
+}
+section .section_kurslarinfo .shaxs .icon-info .fa{
+    font-size: 27px;
+    color: #090a0a;
+    margin-right: 20px;
+    padding: 0 0;
+    
+}
+section .section_kurslarinfo .shaxs .icon-info .fa-mobile-phone{
+    margin-left: 5px;
+    margin-right: 20px;
+   
+    
+}
+section .section_kurslarinfo .shaxs .icon-info p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    margin: 0;
+    padding: 0;
+}
+section .section_kurslarinfo .shaxs ul li {
+    list-style: none;
+}
+section .section_kurslarinfo .shaxs ul li a .fa{
+    font-size: 20px;
+    margin: 15px 30px;
+    color: black;
+    font-weight: 600;
+    
+}
+section .section_kurslarinfo .textlar h6{
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+section .section_kurslarinfo .textlar p{
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+section .section_kurslarinfo .kurs-xona{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px gray;
+
+}
+section .section_kurslarinfo .kurs-xona img{
+    width: 100%;
+    height: 100%;
+    transition: 0.7s ease;
+    
+}
+section .section_kurslarinfo .kurs-xona img:hover{
+    transform: scale(1.4);
+}
+
+/* RESPONSIVE KURSLAR */
+/* MD 768-992 */
+@media (max-width: 992px){
+    section .section_kurslarinfo .kurs-xona{
+        width: 100%;
+        height: 250px;
+        
+    
+    }
+    section .section_kurslarinfo  .shaxs .img-shaxs{
+        width: 100%;
+        height: 150px;
+        
+    }
+    section .section_kurslarinfo .shaxs .icon-info .fa{
+        font-size: 20px;
+        color: #090a0a;
+        margin-right: 20px;
+    }
+    section .section_kurslarinfo .shaxs .icon-info p{
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 17px;
+        margin: 0;
+        padding: 0;
+    }
+}
+/* sm 576-768px */
+@media (max-width:768px){
+    section .section_kurslarinfo  .shaxs{
+        margin-left: 30% !important;
+      }
+      section .section_kurslarinfo  .shaxs .img-shaxs{
+          width: 150px !important;
+          height: 150px;
+          border-radius: 50% !important;
+      }
+}
+/* ex sm 0-576px */
+@media (max-width: 576px){
+    section .section_kurslarinfo .bosh{
+        padding: 8px 16px ;
+      
+       font-size: 10px;
+       
+    }
+    section .section_kurslarinfo .kurs-xona{
+        width: 100%;
+        height: 250px;
+        
+    
+    }
+    section .section_kurslarinfo  .shaxs{
+      margin-left: 10% !important;
+    }
+    section .section_kurslarinfo  .shaxs .img-shaxs{
+        width: 150px !important;
+        height: 150px;
+        border-radius: 50% !important;
+    }
+    section .section_kurslarinfo .shaxs .icon-info .fa{
+        font-size: 20px;
+        color: #090a0a;
+        margin-right: 10px;
+    }
+    section .section_kurslarinfo .shaxs .icon-info p{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 17px;
+        margin: 0;
+        padding: 0;
+    }
+    section .section_kurslarinfo .textlar h6{
+        font-size: 15px;
+        font-weight: 600;
+        
+    }
+    section .section_kurslarinfo .textlar p{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 15px;
+        
+    }
+    section .section_kurslarinfo .kurs-xona{
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 4px;
+        box-shadow: 1px 1px 10px gray;
+    
+    }
+}
+
+/* --------------SECTION KURSLAR BO'LIMI START------------------- */
