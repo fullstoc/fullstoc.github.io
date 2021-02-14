@@ -34,7 +34,7 @@ header .header_nav {
     opacity: 0.8;
     box-shadow: 1px 1px 8px gray;
     position: fixed;
-    z-index:100;
+    z-index:100 !important;
     width: 100%;
     font-family: 'Dancing Script', cursive;
 
@@ -43,7 +43,7 @@ header .header_nav {
 }
 
 header .header_nav .navbar .navbar-brand {
-    font-size: 28px;
+    font-size: 33px;
     font-weight: 500;
     color: #fff;
 
@@ -813,7 +813,7 @@ section .proects img {
 
     width: 100%;
     height: 100%;
-    z-index:-100;
+    z-index:-100 !important;
 
 }
 
