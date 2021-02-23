@@ -30,8 +30,8 @@ header .header_nav .paaad {
 }
 
 header .header_nav {
-    background-color: #0a0a0a;
-    opacity: 0.8;
+/*     background-color: #0a0a0a;
+    opacity: 0.8; */
     box-shadow: 1px 1px 8px gray;
     position: fixed;
     z-index:100 !important;
