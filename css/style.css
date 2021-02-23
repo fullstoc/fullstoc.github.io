@@ -32,7 +32,7 @@ header .header_nav .paaad {
 header .header_nav {
 /*     background-color: #0a0a0a;
     opacity: 0.8; */
-    box-shadow: 1px 1px 8px gray;
+/*     box-shadow: 1px 1px 8px gray; */
     position: fixed;
     z-index:100 !important;
     width: 100%;
@@ -106,12 +106,9 @@ header .header_text .banner-text p {
 
 }
 
-header .header_text .banner-text p .coder {
-    opacity: 0;
-    transform: translate(-90px);
-    transition: 3s ease;
-    color: #fff;
-    animation: anim 3s infinite ease;
+header .header_text .banner-text p .typing {
+   color: red;
+
 
 }
 
