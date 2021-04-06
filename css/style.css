@@ -280,8 +280,6 @@ header .header_text .banner-text p:hover .adver {
     header .header_text .md-none {
         display: none;
     }
-
-}
 section .about .img {
     width: 30%;
     height:170px;
@@ -297,6 +295,9 @@ section .about .img h2 {
     color: red;
     transition: 1.5s ease;
 }
+
+}
+
 
 
 /*-------------------HEader_nav end------- ---------------*/
