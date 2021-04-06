@@ -49,6 +49,15 @@ header .header_nav .navbar .navbar-brand {
 
 }
 
+
+header .header_nav .navbar {
+    font-size: 33px;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+   z-index:10;
+
+}
 header .header_nav .navbar .navbar-brand span {
     color: red;
 }
@@ -271,6 +280,22 @@ header .header_text .banner-text p:hover .adver {
     header .header_text .md-none {
         display: none;
     }
+
+}
+section .about .img {
+    width: 30%;
+    height:170px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 1px 1px 6px gray;
+    position: relative;
+}
+
+section .about .img h2 {
+    position: absolute;
+    transform: translateY(0) translateX(57%);
+    color: red;
+    transition: 1.5s ease;
 }
 
 
