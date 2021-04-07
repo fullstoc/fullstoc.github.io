@@ -263,7 +263,8 @@ header .header_text .banner-text p:hover .adver {
     }
 
     header {
-        height: 200vh !important;
+        height: 100vh !important;
+   background-size:cover;
     }
 
     header .header_fon {
@@ -274,13 +275,13 @@ header .header_text .banner-text p:hover .adver {
         display: none;
     }
 section .about .img {
-    width: 35% !important;
+    width: 100px !important;
     height:100px !important;
     overflow: hidden;
     border-radius: 50% !important;
     box-shadow: 1px 1px 6px gray;
     position: relative;
-margin-left:180px;
+margin-left:100px;
 }
 section .about .img img {
     width: 100% !important;
