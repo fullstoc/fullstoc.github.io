@@ -275,11 +275,12 @@ header .header_text .banner-text p:hover .adver {
     }
 section .about .img {
     width: 30% !important;
-    height:170px !important;
+    height:100px !important;
     overflow: hidden;
     border-radius: 50% !important;
     box-shadow: 1px 1px 6px gray;
     position: relative;
+margin-left:180px;
 }
 section .about .img img {
     width: 100% !important;
